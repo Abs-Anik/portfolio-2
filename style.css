@@ -1,0 +1,143 @@
+body{
+	font-family: cursive;
+	background-color: #EEEBE9;
+}
+/*header*/
+.container{
+	width: 960px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+	
+}
+.header{
+	padding: 15px;
+	box-shadow: -2px 1px 18px black;
+	background-color: #ffffff;
+
+}
+.header h1{
+	margin-left: 25px;
+	color: #d6d6d6;
+}
+.header h1 span{
+	color: #56e8a4;
+	font-size: 50px;
+}
+.header p{
+	text-indent: 75px;
+	margin-top: -20px;
+}
+.header p span{
+	font-size: 25px;
+}
+/*Profile-Picture*/
+.profile{
+	margin-top: 5px;
+}
+
+.profile img{
+	width: 250px;
+	height: 250px;
+	display: block;
+	margin: 15px auto;
+	border-radius: 50%;
+	opacity: .4;
+	transition: 1s linear;
+	background-color: #ffffff;
+}
+.profile img:hover{
+	opacity: 1;
+	box-shadow: 1px 1px 12px black;
+
+}
+.info p{
+	background-color: #ffffff;
+	padding: 10px;
+	box-shadow: .1px .1px 3px black;
+	margin-bottom: 5px;
+	margin-top: 15px;
+
+}
+
+.section{
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.leftsection{
+	width: 50%;
+	height: 350px;
+	float: left;
+	margin-top: 5px;
+	box-shadow: -.2px .2px 3px black;
+	border-right: .5px solid black;
+	background-color: #ffffff;
+	
+	
+}
+.leftsection address{
+	padding-left: 45px;
+	padding-top: 10px;
+}
+.rightsection{
+	width: 49.7%;
+	height: 350px;
+	float: left;
+	margin-top: 5px;
+	background-color: #ffffff;
+	box-shadow: -.2px .2px 3px black;
+	
+
+}
+.rightsection form{
+	padding-left: 45px;
+	padding-top: 10px;
+}
+
+.rightsection form input[type="text"],[type="Password"]{
+	width: 50%;
+	padding: 10px 12px;
+	box-sizing: border-box;
+	box-shadow: .1px .1px 3px black;
+	border-radius: 6px;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: 1s linear;
+
+}
+
+.rightsection form input[type="text"]:focus{
+	width: 70%;
+}
+.rightsection form input[type="Password"]:focus{
+	width: 70%;
+}
+.rightsection form textarea{
+	width: 50%;
+	padding: 16px 15px;
+	box-sizing: border-box;
+	box-shadow: .1px .1px 3px black;
+	border-radius: 6px;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: 1s linear;
+}
+.rightsection form textarea:focus{
+	width: 70%;
+}
+.rightsection form button{
+	cursor: pointer;
+	width: 50%;
+	padding: 16px 15px;
+	border-radius: 6px;
+	box-sizing: border-box;
+	box-shadow: .1px .1px 3px black;
+	border-radius: none;
+	margin-bottom: 10px;
+
+}
